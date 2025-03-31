@@ -1,0 +1,222 @@
+{
+  "움악": [
+    {
+      "name": "레오제이",
+      "handle": "LeoJMakeup"
+    },
+    {
+      "name": "스노비",
+      "handle": "스노비"
+    },
+    {
+      "name": "미스터 비스트",
+      "handle": "MrBeast"
+    },
+    {
+      "name": "우키팝",
+      "handle": "wookipop"
+    },
+    {
+      "name": "서시보 seoulcityboyz",
+      "handle": "seoulcityboyz" 
+    },
+    {
+      "name": "KOZIC",
+      "handle": "kozic8001" 
+    }
+  ],
+  "게임": [
+    {
+      "name": "랄로",
+      "handle": "랄로" 
+    },
+    {
+      "name": "겜브링 GGAM BRING",
+      "handle": "ggambring" 
+    },
+    {
+      "name": "도티 TV",
+      "handle": "DottyTV"
+    },
+    {
+      "name": "잠뜰 TV",
+      "handle": "sleepground" 
+    },
+    {
+      "name": "우주하마",
+      "handle": "uzuhama" 
+    },
+    {
+      "name": "악동 김블루",
+      "handle": "김블루님" 
+    },
+    {
+      "name": "T1 Faker",
+      "handle": "T1_Faker"
+    },
+    {
+      "name": "김재원의 즐거운 세상",
+      "handle": "kimjaewonworld" 
+    },
+    {
+      "name": "우왁굳",
+      "handle": "woowakgood" 
+    },
+    {
+      "name": "양띵 유튜브",
+      "handle": "양띵" 
+    },
+    {
+      "name": "태경 TV",
+      "handle": "태경TV" 
+    },
+    {
+      "name": "뜨뜨뜨뜨",
+      "handle": "DDDD_0109" 
+    },
+    {
+      "name": "대도서관TV",
+      "handle": "BuzzBean11" 
+    },
+    {
+      "name": "군림보",
+      "handle": "군림보" 
+    },
+    {
+      "name": "탁주 쪼꼬",
+      "handle": "Takju0417" 
+    }
+  ],
+  "엔터": [
+    {
+      "name": "침착맨",
+      "handle": "ChimChakMan_Official"
+    }
+  ],
+  "운동": [
+    {
+        "name": "늡덕후",
+        "handle": "늡덕후"
+    },
+    {
+        "name": "비욘드 스포츠",
+        "handle": "beyondsports_official"
+    },
+    {
+        "name": "팀일루션 노성율",
+        "handle": "team1llusion"
+    },
+    {
+        "name": "김종국 GYM JONG KOOK",
+        "handle": "GYMJONGKOOK"
+    },
+    {
+        "name": "피지컬갤러리",
+        "handle": "피지컬갤러리"
+    },
+    {
+        "name": "슛포러브",
+        "handle": "shootforlovekorea"
+    },
+    {
+        "name": "말왕TV",
+        "handle": "MrRagoona88"
+    },
+    {
+        "name": "핏블리 FITVELY",
+        "handle": "fitvely"
+    },
+    {
+        "name": "정찬성 Korean Zombie",
+        "handle": "koreanzombie"
+    },
+    {
+        "name": "보통사람을 위한 운동채널",
+        "handle": "ordinary_fit"
+    },
+    {
+        "name": "꽉잡아윤기-Kwakyoongy",
+        "handle": "kwakyoongy"
+    },
+    {
+        "name": "JK 아트사커 온라인",
+        "handle": "JKartsoccer"
+    },
+    {
+        "name": "매미킴",
+        "handle": "stungunTV"
+    },
+    {
+        "name": "흑자헬스 SurplusHealth",
+        "handle": "흑자헬스SurplusHealth"
+    },
+    {
+        "name": "애슬레틱 라이프 Athletic Life",
+        "handle": "Athletic-Life"
+    }
+  ],
+  "코미디": [
+    {
+      "name": "메타코미디클럽",
+      "handle": "metacomedyclub" 
+    },
+    {
+      "name": "피식대학Psick Univ",
+      "handle": "피식대학"
+    },
+    {
+      "name": "조재원",
+      "handle": "조재원"
+    },
+    {
+      "name": "뽀구미",
+      "handle": "뽀구미"
+    },
+    {
+      "name": "너덜트",
+      "handle": "NERDULT"
+    },
+    {
+      "name": "빠더너스",
+      "handle": "bdns"
+    },
+    {
+      "name": "꼰대희",
+      "handle": "ggondaehee"
+    },
+    {
+      "name": "유병재",
+      "handle": "KoreanCryingGuy"
+    },
+    {
+      "name": "뷰티풀너드",
+      "handle": "뷰티풀너드"
+    },
+    {
+      "name": "슈카월드 코믹스",
+      "handle": "syukaworld-comics"
+    }
+  ],
+  "라이프스타일": [],
+  "패션/뷰티": [],
+  "IT/과학기술": [
+    {
+      "name": "코딩애플",
+      "handle": "codingapple"
+    },
+    {
+      "name": "민티저",
+      "handle": "minteger" 
+    },
+    {
+      "name": "기술노트with 알렉",
+      "handle": "with2511" 
+    },
+    {
+      "name": "코딩스키스키",
+      "handle": "aaaa_aaa_A_aaa-a"
+    }
+  ],
+  "영화/애니매이션": [],
+  "사회/문화": []
+}
