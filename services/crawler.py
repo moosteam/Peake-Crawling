@@ -41,7 +41,6 @@ def find_profile_image(driver):
                 if width and height and int(width) == int(height) and int(width) <= 200:
                     logger.info(f"크기 확인으로 찾은 프로필 이미지: {src}")
                     return src
-
                 if any(keyword in alt.lower() for keyword in ['profile', '프로필', 'avatar', 'channel']):
                     logger.info(f"alt 텍스트로 찾은 프로필 이미지: {src}")
                     return src
@@ -55,6 +54,7 @@ def find_profile_image(driver):
 
 
 def get_subscriber_count(driver, channel_url: str, timeout: int = DEFAULT_TIMEOUT) -> Tuple[Union[float, str], str, Union[str, None]]:
+
     try:
         driver.get(channel_url)
         logger.info(f"페이지 로딩 중: {channel_url}")
@@ -65,7 +65,7 @@ def get_subscriber_count(driver, channel_url: str, timeout: int = DEFAULT_TIMEOU
 
         while time.time() - start_time < timeout:
             driver.execute_script("window.scrollBy(0, 300);")
-            
+
             if not profile_image_url:
                 profile_image_url = find_profile_image(driver)
 
@@ -161,7 +161,7 @@ def crawl_channels_by_category(category_index: int, max_workers: int = DEFAULT_M
     current_time = get_current_time()
     categories = list(channels_data.keys())
     logger.info(f"카테고리 수: {len(categories)}")
-    
+
     if category_index < 1 or category_index > len(categories):
         return {"error": f"유효한 카테고리 인덱스가 아닙니다. 1부터 {len(categories)}까지의 값을 입력하세요."}
 
@@ -170,7 +170,7 @@ def crawl_channels_by_category(category_index: int, max_workers: int = DEFAULT_M
 
     logger.info(f"'{selected_category}' 카테고리 크롤링 시작 ({len(channels_in_category)} 채널)")
     start_time = time.time()
-    
+
     results = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
         future_to_channel = {
@@ -182,7 +182,7 @@ def crawl_channels_by_category(category_index: int, max_workers: int = DEFAULT_M
             result = future.result()
             if result:
                 results.append(result)
-    
+
     sorted_results = sort_results_by_subscriber_count(results)
     
     elapsed = time.time() - start_time
